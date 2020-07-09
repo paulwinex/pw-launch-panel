@@ -9,7 +9,7 @@ from functools import partial
 from pathlib import Path
 from .launcher import launch_app
 
-readme_url = '#'
+readme_url = 'https://github.com/paulwinex/pw-launch-panel/blob/master/docs/index.rst'
 # text whit buttons not configured
 no_buttons_text = '<h1>NO BUTTONS</h1><br><a href="{}" style="color: gray">How to add?</a>'.format(readme_url)
 # text for help window
