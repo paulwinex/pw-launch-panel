@@ -4,7 +4,7 @@ Education project of PySide2 application.
 
 All code is commented!
 
-GIF
+![Demo](https://github.com/paulwinex/pw-launch-panel/blob/master/docs/img/launch_panel.gif?raw=true)
 
 Read docs for details
 
