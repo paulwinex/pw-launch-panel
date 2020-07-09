@@ -2,5 +2,5 @@
 __pycache__/
 *.py[cod]
 *$py.class
-/launch_panel/settings/buttons.json
+/launch_panel/settings/-buttons.json
 /launch_panel/res/custom_style.qss

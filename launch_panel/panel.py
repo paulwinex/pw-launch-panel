@@ -21,7 +21,7 @@ Using:
 2. Use Middle Mouse Button to move panel
 3. Use Left click on buttons to launch default app and Right Click to select specific app. 
 
-Full readme: <a href="{}" style="color: gray">???</a>
+<a href="{}" style="color: gray">Open Manual</a>
 
 '''.format(readme_url)
 
