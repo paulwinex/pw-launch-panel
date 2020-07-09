@@ -1,0 +1,10 @@
+{
+  "height": 70,
+  "button_size": 60,
+  "transparency": 0.7,
+  "hide_timeout": 2000,
+  "animation_speed": 200,
+  "padding_top": 0,
+  "panel_padding": [10, 30, 10, 10],
+  "button_spacing": 10
+}
