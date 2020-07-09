@@ -1,0 +1,28 @@
+{
+  "": "one button description",
+  "notepad": {
+    "": "Tooltop for the button",
+    "tooltip": "Notepad",
+    "": "Icon for button. You can use relative path for folder 'icons' or absolute path",
+    "icon": "Notepad.png",
+    "": "List of commands. All commands available in Context Menu of the button",
+    "commands": [
+      {
+        "": "Title for context menu",
+        "title": "Notepad",
+        "": "Executable file",
+        "executable": "notepad.exe",
+        "": "Arguments",
+        "args": [],
+        "": "Environments for app",
+        "env": {},
+        "": "Use this command if you have many variants of launching in single button. This command will be used when user click on button",
+        "default": true,
+        "": "Enable shell=True for subprocess.Popen",
+        "shell": true,
+        "": "Work dir for app",
+        "workdir": "/path/to/some"
+      }
+    ]
+  }
+}

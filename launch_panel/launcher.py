@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 def launch_app(executable, args=None, env=None, shell=False, cwd=None):
+    """Launch application with all parameters"""
     # collect command
     cmd = [executable]
     if args:

@@ -6,9 +6,9 @@ Simple example of animation in Qt app.
 Features
 ========
 
-- Launch panel fo any application shortcuts
+- Launch panel for any application or command
 
-- Auto hide when loose focus and popup on cursor hover
+- Auto hide when lose focus and auto pop up on cursor hover
 
 - Customizable by JSON file
 
@@ -58,7 +58,7 @@ This file can change panel settings. Create file ``custom_ui.json`` in ``setting
 custom_style.qss
 ~~~~~~~~~~~~~~~~
 
-You can change default style wit file ``custom_style.qss``
+You can change default style with file ``custom_style.qss``
 
 **.../run_panel/res/custom_style.qss**
 

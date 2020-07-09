@@ -1,0 +1,30 @@
+{
+  "notepad": {
+    "tooltip": "Notepad",
+    "icon": "notepad.png",
+    "commands": [
+      {
+        "title": "Notepad",
+        "executable": "notepad.exe",
+        "default": true
+      },
+      {
+        "title": "HOSTS",
+        "executable": "notepad.exe",
+        "args": [
+          "C:/Windows/System32/drivers/etc/hosts"
+        ]
+      }
+    ]
+  },
+  "calc": {
+    "tooltip": "Calc",
+    "icon": "calc.png",
+    "commands": [
+      {
+        "title": "Calc",
+        "executable": "calc.exe"
+      }
+    ]
+  }
+}
