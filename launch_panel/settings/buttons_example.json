@@ -18,7 +18,11 @@
                     "": "Environments for app",
                     "env": {},
                     "": "Use this command if you have many variants of launching in single button. This command will be used when user click on button",
-                    "default": true
+                    "default": true,
+                    "": "Enable shell=True for subprocess.Popen",
+                    "shell": true,
+                    "": "Work dir for app",
+                    "workdir": "/path/to/some"
                 }
         ]
     }

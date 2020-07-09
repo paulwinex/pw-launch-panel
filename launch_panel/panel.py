@@ -4,10 +4,10 @@ Simple launching panel GUI
 from PySide2.QtWidgets import *
 from PySide2.QtCore import *
 from PySide2.QtGui import *
-import json
+import json, traceback
 from functools import partial
 from pathlib import Path
-from launch_panel.launcher import launch_app
+from .launcher import launch_app
 
 readme_url = '#'
 # text whit buttons not configured
@@ -167,7 +167,17 @@ class LaunchPanelClass(QMainWindow):
     def launch_app(self, data):
         """Launch selected app"""
         # send data to launch script
-        launch_app(data['executable'], args=data.get('args'), env=data.get('env'))
+        try:
+            launch_app(data['executable'],
+                       args=data.get('args'),
+                       env=data.get('env'),
+                       shell=data.get('shell', False),
+                       cwd=data.get('workdir'))
+        except Exception as e:
+            # print error traceback to console
+            traceback.print_exc()
+            # shot popup error
+            QMessageBox.critical(self, 'Error', str(e))
 
     def anim_transparency(self, start=1, end=0.01, d=None):
         """Start transparency animation"""

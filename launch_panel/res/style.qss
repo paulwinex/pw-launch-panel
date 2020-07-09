@@ -11,20 +11,23 @@ QWidget:item:hover
     background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3b3b3, stop: 1 #686767);
     color: #000000;
 }
+/* selected item color */
 QWidget:item:selected
 {
     background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
 }
+/* disabled item color */
 QWidget:disabled
 {
     color: #404040;
     background-color: #323232;
 }
+/* widget in focus */
 QWidget:focus
 {
     border: 0px solid;
 }
-
+/* button style */
 QPushButton
 {
     color: #b1b1b1;
@@ -36,34 +39,35 @@ QPushButton
     padding-left: 1px;
     padding-right: 1px;
 }
-
+/* pressed button style */
 QPushButton:pressed
 {
     background-color: gray;
     border: 2px solid #000;
     border-radius: 4px;
 }
-
+/* when cursor over button */
 QPushButton:hover
 {
     border: 2px solid #999999;
     border-radius: 4px;
 }
+/* menu style */
 QMenu
 {
     border: 1px solid #000;
 }
-
+/* menu item style */
 QMenu::item
 {
     padding: 2px 20px 2px 20px;
 }
-
+/* selected menu item style */
 QMenu::item:selected
 {
     color: #000000;
 }
-
+/* menu separator */
 QMenu::separator
 {
     height: 2px;

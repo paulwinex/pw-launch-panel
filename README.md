@@ -1,6 +1,6 @@
 # Launch Panel
 
-Education project of PySide2 widget.
+Education project of PySide2 application.
 
 All code is commented!
 
