@@ -27,7 +27,7 @@ Use file ``buttons_example.json`` as reference.
 
 .. code-block:: json
 
-    [
+    {
         "my_app": {
             "tooltip": "My App",
             "icon": "app.png",
@@ -40,7 +40,7 @@ Use file ``buttons_example.json`` as reference.
                     }
             ]
         }
-    ]
+    }
 
 custom_ui.json
 ~~~~~~~~~~~~~~
@@ -49,7 +49,7 @@ This file can change panel settings. Create file ``custom_ui.json`` in ``setting
 
 **.../run_panel/settings/buttons.json**
 
-.. code-block::
+.. code-block:: json
 
     {
         "hide_timeout": 5000
